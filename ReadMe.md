@@ -12,5 +12,7 @@ Solutions to challenges on [kattis](https://open.kattis.com/).
 
 ### References
 [T-414-ÁFLV: A Competitive Programming Course](https://github.com/SuprDewd/T-414-AFLV)
+
 [Competitive Programming (CP3)- Steve Halim](https://drive.google.com/file/d/0B7RBrJBsud5YMEJZVUVmYUNGSzA/view)
+
 [CP4 Free Source Code Project ](https://github.com/stevenhalim/cpbook-code)
