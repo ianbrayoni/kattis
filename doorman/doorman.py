@@ -13,7 +13,7 @@ def max_revellers(diff, genders):
     temp_diff = 0
     q = deque()
 
-    if diff == 0:
+    if diff == temp_diff:
         return len(genders)
 
     # simulate a queue
@@ -46,7 +46,7 @@ def max_revellers(diff, genders):
             else:
                 del q[1]
 
-        # if men == women, just admit first in line
+        # if diff is acceptable, just admit first in line
         else:
             if current == "M":
                 q.popleft()
