@@ -30,7 +30,6 @@ def eligibility(name, study_date, date_birth, courses):
     study_date = datetime_converter(study_date, DATE_FORMAT)
     date_birth = datetime_converter(date_birth, DATE_FORMAT)
     courses = int(courses)
-    verification = ""
 
     if study_date >= EXPECTED_POST_SECONDARY_DATE:
         verification = name + ELIGIBLE
