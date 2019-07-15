@@ -11,6 +11,7 @@ from datetime import datetime
 
 
 def datetime_converter(date, format):
+    # convert string to datetime object to compare dates
     return datetime.strptime(date, format)
 
 
